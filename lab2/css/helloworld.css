@@ -5,9 +5,10 @@ h1 {
 
 p {
   font-family: "times new roman";
-  font-size: 150%;
+  font-size: 100%;
+  color: red;
   text-indent: 30px;
-  margin-left: 20px
+  margin-left: 20px;
 }
 
 div {
