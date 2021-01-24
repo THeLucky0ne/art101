@@ -1,0 +1,14 @@
+#challenge {
+  border-style: solid;
+  border-color: black;
+}
+
+#problems {
+  border-style: dashed;
+  border-color: brown;
+}
+
+#results {
+  border-style: dotted;
+  border-color: orange;
+}
