@@ -1,0 +1,15 @@
+#paragraphs {
+  border-style: dotted;
+  border-color: blue
+}
+
+img {
+  float: right;
+  width: 40%;
+  height: inherit;
+}
+
+.output {
+  border-style: dashed;
+  border-color: red;
+}
