@@ -14,7 +14,7 @@ var age = 2021 - year;
 
 
 document.writeln("Make: " + make + "<br>");
-document.write1n("Model: " + model + "<br>");
+document.writeln("Model: " + model + "<br>");
 document.writeln("Color: " + color + "<br>");
 document.writeln("Year: " + year + "<br>");
 document.writeln("Age: " + age + " years<br>");
