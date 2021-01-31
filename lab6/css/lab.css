@@ -7,3 +7,9 @@ div {
   border-style: solid;
   border-color: red;
 }
+
+img {
+  float: right;
+  width: 25%;
+  height: inherit;
+}
