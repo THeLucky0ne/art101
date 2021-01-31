@@ -15,4 +15,4 @@ var myMainRide = {
 
 document.writeln("The transportation that I normally use: ", myTransport, "</br>");
 document.writeln("My main ride: <pre>",
-    JSON.stringify(myMainRide, null, '\t'), "</pre>");
+  JSON.stringify(myMainRide, null, '\t'), "</pre>");
