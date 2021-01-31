@@ -1,0 +1,9 @@
+div {
+  border-style: dotted;
+  border-color: blue;
+}
+
+.output {
+  border-style: solid;
+  border-color: red;
+}
