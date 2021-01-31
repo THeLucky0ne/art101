@@ -10,7 +10,7 @@ var myMainRide = {
   make = "Nissan",
   model = "Rogue",
   color = "gray",
-  year = "2008";
+  year = 2008;
 }
 
 document.writeln("The transportation that I normally use: ", myTransport, "</br>");
