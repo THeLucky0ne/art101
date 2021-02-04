@@ -1,0 +1,9 @@
+div {
+  border-style: dotted;
+  border-color: yellow;
+}
+
+.body {
+  border-style: solid;
+  border-color: red;
+}
