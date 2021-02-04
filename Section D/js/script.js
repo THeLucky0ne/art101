@@ -24,3 +24,10 @@ comparingNumbers(2,1);
 numVar = numVar + 40
 comparingNumbers(12,18);
 //console.log(firstNum);
+
+
+function userInfo(firstname, lastname){
+  console.log("My first name is "+firstname+"and my last name is "+lastname);
+}
+
+console.log(userinfo(Michael, Jackson));
