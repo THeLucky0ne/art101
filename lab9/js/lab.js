@@ -16,9 +16,3 @@ new2El.innerHTML = "I actually hate this class.";
 console.log(new2El);
 document.body.appendChild(new1El);
 document.body.appendChild(new2El);
-
-new1El.onclick=function() {
-  outputEl.innerHTML = new1El.innerHTML;
-
-
-}
