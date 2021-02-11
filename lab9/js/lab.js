@@ -8,11 +8,11 @@
 var outputEl = document.getElementById("output");
 outputEl.innerHTML="I love this class.";
 console.log(outputEl);
-var new1El = document.createElement("p");
+var new1El = document.createElement("output");
 new1El.innerHTML = "I really love this class.";
 console.log(new1El);
-var new2El = document.createElement("b");
+var new2El = document.createElement("output");
 new2El.innerHTML = "I actually hate this class.";
 console.log(new2El);
-document.<div>.appendChild(new1El);
-document.<div>.appendChild(new2El);
+document.appendChild(new1El);
+document.appendChild(new2El);
