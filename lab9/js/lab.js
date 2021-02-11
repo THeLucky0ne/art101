@@ -7,6 +7,7 @@
 
 var outputEl = document.getElementById("output");
 outputEl.innerHTML="I love this class.";
+console.log(outputEl);
 var new1El = document.createElement("p");
 new1El.innerHTML = "I really love this class.";
 var new2El = document.createElement("b");
