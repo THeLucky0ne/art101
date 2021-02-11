@@ -6,11 +6,8 @@
 
 
 var outputEl = document.getElementById("output");
-outputEl.innerHTML="This is annoying";
+outputEl.innerHTML="I love this class.";
 var new1El = document.createElement("p");
-document.body.appendChild(new1El);
-new1El.innerHTML = "Plz Press";
-
-new1El.onclick=function() {
-  outputEl.innerHTML="this is more annoying than I thought"
-}
+new1El.innerHTML = "I really love this class.";
+var new2El = document.createElement("b");
+new2El.innerHTML = "I actually hate this class."
