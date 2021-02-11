@@ -14,5 +14,11 @@ console.log(new1El);
 var new2El = document.createElement("b");
 new2El.innerHTML = "I actually hate this class.";
 console.log(new2El);
-document.appendChild(new1El);
+document.body.appendChild(new1El);
 document.body.appendChild(new2El);
+
+p.onclick=function() {
+  outputEl.innerHTML = new1El;
+
+
+}
