@@ -8,10 +8,10 @@
 var outputEl = document.getElementById("output");
 outputEl.innerHTML="I love this class.";
 console.log(outputEl);
-var new1El = document.createElement("sentence");
+var new1El = document.createElement("firstchange");
 new1El.innerHTML = "I really love this class.";
 console.log(new1El);
-var new2El = document.createElement("seconds");
+var new2El = document.createElement("secondchange");
 new2El.innerHTML = "I actually hate this class.";
 console.log(new2El);
 
