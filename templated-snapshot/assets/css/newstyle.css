@@ -1,6 +1,2 @@
 
-.media {
-  border-style: solid;
-  border-color: yellow;
-
-}
+div.media a img {border: solid 10px yellow;}
