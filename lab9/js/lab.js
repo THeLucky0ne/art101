@@ -8,13 +8,12 @@
 var outputEl = document.getElementById("output");
 outputEl.innerHTML="I love this class.";
 console.log(outputEl);
-var new1El = document.createElement("p");
-document.getElementById("p")
+var new1El = document.createElement("sentence");
 new1El.innerHTML = "I really love this class.";
 console.log(new1El);
-var new2El = document.createElement("b");
-document.getElementById("b")
+var new2El = document.createElement("seconds");
 new2El.innerHTML = "I actually hate this class.";
 console.log(new2El);
-document.appendChild(new1El);
-document.appendChild(new2El);
+
+document.body.appendChild(new1El);
+document.body.appendChild(new2El);
