@@ -14,5 +14,5 @@ console.log(new1El);
 var new2El = document.createElement("b");
 new2El.innerHTML = "I actually hate this class.";
 console.log(new2El);
-document.head.appendChild(new1El);
-document.head.appendChild(new2El);
+document.heading.appendChild(new1El);
+document.heading.appendChild(new2El);
