@@ -14,6 +14,7 @@ button.addEventListener("click", function(){
 
   userName = userName.toLowerCase().split('').sort().reverse().join('');
 
+  console.log("Your name", userName);
   var outputEl = document.getElementsById("output");
   outputEl.innerHTML = userName;
 
