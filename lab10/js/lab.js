@@ -12,7 +12,7 @@ button.addEventListener("click", function(){
   var name = document.getElementById("user-name");
   var userName = name.value;
 
-  userName = userName.toLowerCase.split('').sort().reverse().join('');
+  userName = userName.toLowerCase().split('').sort().reverse().join('');
 
   console.log("Your name", userName);
   var outputEl = document.getElementsById("output");
