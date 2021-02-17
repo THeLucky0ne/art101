@@ -5,9 +5,9 @@
 */
 
 
-var challengeButton = $(#challenge);
-var problemsButton = $(#problems);
-var resultsButton = $(#results);
+var challengeButton = $("#challenge");
+var problemsButton = $("#problems");
+var resultsButton = $("#results");
 
 $(challengeButton).append("<button>Click to show the challenge</button>");
 $(problemsButton).append("<button>Click to show the problems</button>");
