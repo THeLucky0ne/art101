@@ -22,13 +22,13 @@ $(challengeButton).click(function(){
 
 $(problemsButton).click(function(){
   $("problems").text("One issue that I experienced during
-  this lab was gettig adjusted with the syntax for jQuery.
-  With the help of WesSchools, I was able to figure out
-  the syntax appropriate for this lab.")
+  this lab was gettig adjusted with the specific syntax jQuery has.
+  With Weschool's help, I was able to figure out
+  the syntax that would help me in this lab.")
 });
 
 $(resultsButton).click(function(){
   $("results").text("There should be three buttons under each
-  section. Clicking them should display their respective
+  section. Clicking on them should display their respective
   paragraphs.")
 });
