@@ -31,3 +31,7 @@ $(resultsButton).click(function(){
     Clicking on them should display their respective
     paragraphs.</p>");
 });
+
+$("#challenge").addClass("special");
+$("#problems").addClass("special");
+$("#results").addClass("special");
