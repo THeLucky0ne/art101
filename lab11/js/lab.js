@@ -15,21 +15,15 @@ $(resultsButton).append("<button>Click to show the results</button>");
 
 
 $(challengeButton).click(function(){
-  $("#challenge").append("<p>The purpose of this lab is to experiment with jQuery
-    by using buttons to display our paragraphs. </p>");
+  $("#challenge").toggleClass("special");
 });
 
 $(problemsButton).click(function(){
-  $("#problems").append("<p> One issue that I experienced during this lab was
-  gettig adjusted with the specific syntax jQuery has.
-  With Weschool's help, I was able to figure out
-  the syntax that would help me in this lab. </p>");
+  $("#problems").toggleClass("special");
 });
 
 $(resultsButton).click(function(){
-  $("#results").append("<p>There should be three buttons under each section.
-    Clicking on them should display their respective
-    paragraphs.</p>");
+  $("#results").toggleClass("special");
 });
 
 $("#challenge").addClass("special");
