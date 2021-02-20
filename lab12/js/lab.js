@@ -28,5 +28,6 @@ var theButton = document.getElementById("button");
 theButton.addEventListener("click", function() {
   var name = document.getElementById("input").value;
   var house = sortingHat(name);
-  document.getElementById("output").innerText =  house;
+  var text = "<p>The Sorting Hat has sorted you into " + house + "</p>";
+  document.getElementById("output").innerText =  text;
 })
