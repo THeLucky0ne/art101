@@ -10,16 +10,16 @@ function sortingHat(str){
   var length = str.length;
   var mod = length % 4;
   if (mod == 0) {
-    return "Gryffindor"
+    return "Gryffindor";
   }
   else if (mod == 1) {
-    return "Ravenclaw"
+    return "Ravenclaw";
   }
   else if (mod == 2) {
-    return "Slytherin"
+    return "Slytherin";
   }
   else if (mod == 3) {
-    return "Hufflepuff"
+    return "Hufflepuff";
   }
 }
 
