@@ -25,10 +25,10 @@ function sortingHat(str){
 
 
 //str = document.getElementById("input")
-var theButton = document.getElementById("button")
+var theButton = document.getElementById("button");
 theButton.addEventListener("click", function() {
   var name = document.getElementById("input").value;
   var house = sortingHat(name);
   document.getElementById("output").innerHTML = "<p>The Sorting Hat has
-  sorted you into " + house + </p>
+  sorted you into " + house + "</p>";
 })
