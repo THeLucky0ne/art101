@@ -1,0 +1,9 @@
+.paragraphs {
+  border-style: dashed;
+  border-color: red;
+}
+
+#output {
+  border style: solid;
+  border-color: yellow;
+}
