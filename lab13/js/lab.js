@@ -5,33 +5,40 @@
 */
 
 
-
-function FuzzyBuzzy() {
-  for (i = 1; i <= 200; i ++) {
-    if (i % 105 == 0) {
-      return "FizzBuzzBoom"
+var longString = num;
+  for (num = 1; num <= 200; num ++) {
+    if (num % 105 == 0) {
+      console.log("FizzBuzzBoom");
+      longString += num + ":FizzBuzzBoom<br>";
     }
-    else if (i % 15 == 0) {
-      return "FizzBuzz"
+    else if (num % 15 == 0) {
+      console.log("FizzBuzz");
+      longString += num + ":FizzBuzz<br>";
     }
-    else if (i % 21 == 0) {
-      return "FizzBoom"
+    else if (num % 21 == 0) {
+      console.log("FizzBoom");
+      longString += num + ":FizzBoom<br>";
     }
-    else if (i % 35 == 0) {
-      return "BuzzBoom"
+    else if (num % 35 == 0) {
+      console.log("BuzzBoom");
+      longString += num + ":BuzzBoom<br>";
     }
-    else if (i % 3 == 0) {
-      return "Fizz"
+    else if (num % 3 == 0) {
+      console.log("Fizz");
+      longString += num + ":Fizz<br>";
     }
-    else if (i % 5 == 0) {
-      return "Buzz"
+    else if (num % 5 == 0) {
+      console.log("Buzz");
+      longString += num + ":Buzz<br>";
     }
-    else if (i % 7 == 0) {
-      return "Boom"
+    else if (num % 7 == 0) {
+      console.log("Boom");
+      longString += num + ":Boom<br>";
     }
     else {
-      return i
+      return num;
+      longString += num + "<br>";
     }
-  }
-  console.log(FuzzyBuzzy(200))
-}
+  };
+
+  $("#output").html(longString);
