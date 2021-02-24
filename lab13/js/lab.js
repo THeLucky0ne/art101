@@ -36,7 +36,7 @@ var longString = num;
       longString += num + ":Boom<br>";
     }
     else {
-      return num;
+      console.log(num);
       longString += num + "<br>";
     }
   };
