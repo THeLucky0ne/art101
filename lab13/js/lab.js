@@ -33,6 +33,6 @@ function FuzzyBuzzy(i) {
       return i
     }
   }
-  var longString += i + "Fizz<br>";
+  longString += i + "Fizz<br>";
   $("#output").html(longString);
 }
