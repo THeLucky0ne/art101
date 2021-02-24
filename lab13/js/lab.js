@@ -7,7 +7,7 @@
 
 
 
-for (i = 1; i <= 200, i ++ 1) {
+for (i = 1; i <= 200; i ++ 1) {
   if (i % 105 == 0) {
     console.log("FizzBuzzBoom")
   }
