@@ -6,7 +6,7 @@
 
 
 
-function FuzzyBuzzy(i) {
+function FuzzyBuzzy() {
   for (i = 1; i <= 200; i ++) {
     if (i % 105 == 0) {
       return "FizzBuzzBoom"
@@ -33,6 +33,5 @@ function FuzzyBuzzy(i) {
       return i
     }
   }
+  console.log(FuzzyBuzzy(200))
 }
-
-console.log(FuzzyBuzzy(200));
