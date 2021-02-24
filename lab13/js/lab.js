@@ -6,32 +6,33 @@
 
 
 
-function FuzzyBuzzy () {
+function FuzzyBuzzy(i) {
   for (i = 1; i <= 200; i ++) {
     if (i % 105 == 0) {
-      console.log("FizzBuzzBoom")
+      return "FizzBuzzBoom"
     }
     else if (i % 15 == 0) {
-      console.log("FizzBuzz")
+      return "FizzBuzz"
     }
     else if (i % 21 == 0) {
-      console.log("FizzBoom")
+      return "FizzBoom"
     }
     else if (i % 35 == 0) {
-      console.log("BuzzBoom")
+      return "BuzzBoom"
     }
     else if (i % 3 == 0) {
-      console.log("Fizz")
+      return "Fizz"
     }
     else if (i % 5 == 0) {
-      console.log("Buzz")
+      return "Buzz"
     }
     else if (i % 7 == 0) {
-      console.log("Boom")
+      return "Boom"
     }
     else {
-      console.log(i)
+      return i
     }
   }
+  var longString += i + "Fizz<br>";
+  $("#output").html(longString);
 }
-console.log(FuzzyBuzzy);
