@@ -34,3 +34,4 @@ function FuzzyBuzzy () {
     }
   }
 }
+console.log(FuzzyBuzzy);
