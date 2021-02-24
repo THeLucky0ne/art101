@@ -6,7 +6,7 @@
 
 
 var longString = num;
-  for ( var num = 1; num <= 200; num ++) {
+  for ( var num = 0; num <= 200; num ++) {
     if (num % 105 == 0) {
       console.log("FizzBuzzBoom");
       longString += num + ":FizzBuzzBoom<br>";
