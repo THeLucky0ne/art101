@@ -15,7 +15,7 @@ $(thisButton).click(function(){
     //url: "https://numbersapi.com/87",
     //type: "GET",
     //dataType: "json",
-  });
+  //});
   var divider = document.getElementById("output");
   divider.innerText(data);
 });
