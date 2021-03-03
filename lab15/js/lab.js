@@ -9,7 +9,7 @@ var thisButton = $("#activate");
 
 $(thisButton).click(function(){
   $.ajax({
-    url: "numbersapi.com/87",
+    url: "https://numbersapi.com/87",
     type: "GET",
     dataType: "json",
   });
