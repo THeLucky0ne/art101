@@ -22,6 +22,10 @@ function theAjax() {
 function theSuccess(comicObj){
   console.log(comicObj);
   $("#output").html(comicObj.title);
+  $("output").html(comicObj.img);
+  $("output").html(comicObj.alt);
 }
 
-function theFailure()
+function theFailure(xhr, status, strErr){
+  console.log("something went wrong");
+}
