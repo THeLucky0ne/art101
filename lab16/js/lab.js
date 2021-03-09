@@ -29,3 +29,5 @@ function theSuccess(comicObj){
 function theFailure(xhr, status, strErr){
   console.log("something went wrong");
 }
+
+$("#activate").click(theAjax);
