@@ -1,0 +1,9 @@
+div {
+  border-style: dashed;
+  border-color: purple;
+}
+
+#output {
+  border-style: dotted;
+  border-color: red;
+}
