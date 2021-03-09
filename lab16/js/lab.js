@@ -22,7 +22,9 @@ function theAjax() {
 function theSuccess(comicObj){
   console.log(comicObj);
   $("#output").html(comicObj.alt);
+  console.log(comicObj);
   $("#output").html(comicObj.img);
+  console.log(comicObj);
   $("#output").html(comicObj.title);
 }
 
