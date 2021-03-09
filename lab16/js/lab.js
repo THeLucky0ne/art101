@@ -20,12 +20,14 @@ function theAjax() {
 }
 
 function theSuccess(comicObj){
-  console.log(comicObj);
-  $("#output").html(comicObj.alt);
-  console.log(comicObj);
-  $("#output").html(comicObj.img);
-  console.log(comicObj);
-  $("#output").html(comicObj.title);
+  var textComic = JSON.stringify(comicObj);
+  var str = "";
+  var image = comicObj.img;
+  var title = comicObj.tite;
+  var alt = comicObj.alt;
+  str += "<h2>" + title + "</h2>";
+  str += "<img src='" + image + "' title= '" + alt + "'>"
+  putTextOnPage(str);
 }
 
 function theFailure(xhr, status, strErr){
