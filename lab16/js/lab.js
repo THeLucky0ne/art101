@@ -27,6 +27,7 @@ function theSuccess(comicObj){
   var alt = comicObj.alt;
   str += "<h2>" + title + "</h2>";
   str += "<img src='" + image + "' title= '" + alt + "'>"
+  $("#output").html(str);
 }
 
 function theFailure(xhr, status, strErr){
