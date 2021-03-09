@@ -26,7 +26,8 @@ function theSuccess(comicObj){
   var title = comicObj.tite;
   var alt = comicObj.alt;
   str += "<h2>" + title + "</h2>";
-  str += "<img src='" + image + "' title= '" + alt + "'>"
+  str += "<img src='" + image + "'>";
+  str += "<p>" + alt + "</p>";
   $("#output").html(str);
 }
 
