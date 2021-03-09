@@ -13,7 +13,9 @@ function theAjax() {
     dataType: "json",
     success: theSuccess,
     error: theFailure,
-
+    complete: function (xhr, status) {
+      console.log("completed");
+    }
   });
 }
 
@@ -21,3 +23,5 @@ function theSuccess(comicObj){
   console.log(comicObj);
   $("#output").html(comicObj.title);
 }
+
+function theFailure()
