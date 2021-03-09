@@ -21,9 +21,9 @@ function theAjax() {
 
 function theSuccess(comicObj){
   console.log(comicObj);
-  $("#output").html(comicObj.title);
-  $("#output").html(comicObj.img);
   $("#output").html(comicObj.alt);
+  $("#output").html(comicObj.img);
+  $("#output").html(comicObj.title);
 }
 
 function theFailure(xhr, status, strErr){
