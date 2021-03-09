@@ -23,7 +23,7 @@ function theSuccess(comicObj){
   var textComic = JSON.stringify(comicObj);
   var str = "";
   var image = comicObj.img;
-  var title = comicObj.tite;
+  var title = comicObj.title;
   var alt = comicObj.alt;
   str += "<h2>" + title + "</h2>";
   str += "<img src='" + image + "'>";
